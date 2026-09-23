@@ -66,7 +66,6 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    /* opacity: 0.7; */
     background-color: var(--overlay-color);
     color: var(--secondary-color);
 }
@@ -76,7 +75,6 @@ h2 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    /* opacity: 0.7; */
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
@@ -88,7 +86,6 @@ h2 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    /* opacity: 0.7; */
     background-color: var(--overlay-color);
     color: var(--secondary-color);
 }
