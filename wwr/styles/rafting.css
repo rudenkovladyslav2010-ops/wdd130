@@ -86,3 +86,7 @@ h1 {
     float: right;
     width: 125px;
 }
+
+footer p {
+    font-size: small;
+}
