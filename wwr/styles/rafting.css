@@ -1,5 +1,6 @@
 :root {
     --primary-color: rgb(32, 32, 162);
+    --overlay-color: rgba(32, 32, 162, 0.75);
     --secondary-color: white;
     --accent1-color: black;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -65,8 +66,8 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--primary-color);
+    /* opacity: 0.7; */
+    background-color: var(--overlay-color);
     color: var(--secondary-color);
 }
 
@@ -77,8 +78,8 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--primary-color);
+    /* opacity: 0.7; */
+    background-color: var(--overlay-color);
     color: var(--secondary-color);
 }
 
