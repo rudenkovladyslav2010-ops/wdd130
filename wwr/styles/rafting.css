@@ -3,6 +3,7 @@
     --overlay-color: rgba(43, 43, 121, 0.7);
     --secondary-color: white;
     --accent1-color: black;
+    --lightblue-color: rgb(235, 240, 242);
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -283,6 +284,85 @@ form textarea {
 .employees figure figcaption {
     font-size: .75rem;
     text-align: center;
+}
+
+.quote {
+    font-size: 1.2rem;
+    font-style: italic;
+    /* text-align: center; */
+}
+
+.newsletter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    border: 1px solid var(--lightblue-color);
+    border-radius: 6px;
+    background-color: var(--lightblue-color);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+
+.newsletter form {
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+    width: 50%;
+    justify-self: center;
+}
+
+.newsletter h2 {
+    padding: 10px;
+    grid-column: 1 / span 2;
+}
+
+.useremail {
+    grid-column: 1 / span 2;
+    /* justify-self: center; */
+    /* width: 50%; */
+}
+
+.useremail input {
+    width: 100%;
+}
+
+.submit {
+    grid-column: 1 / span 2;
+    justify-self: center;
+    width: 50%;
+}
+
+.submit button {
+    width: 100%;
+}
+
+.firstname,
+.lastname,
+.useremail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.explore-trips {
+    grid-column: 2;
+    padding-top: 30px;
+}
+
+.explore-trips a {
+    background-color: var(--primary-color);
+    font-weight: 700;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* .contact-content button {
