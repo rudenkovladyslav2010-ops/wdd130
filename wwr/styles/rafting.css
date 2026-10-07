@@ -507,6 +507,14 @@ tfoot tr {
     font-weight: 600;
 }
 
+.description div,
+.description-two div,
+.description-three div {
+    margin: 12px;
+    padding: 8px;
+    opacity: 1;
+}
+
 /* .contact-content button {
     grid-column: 1/span2;
 } */
