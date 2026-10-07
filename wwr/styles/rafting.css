@@ -450,9 +450,9 @@ form textarea {
     max-width: 300px;
 }
 
-.description h4,
-.description-two h4,
-.description-three h4 {
+.description h3,
+.description-two h3,
+.description-three h3 {
     text-align: center;
     margin-top: 30px;
     color: var(--primary-color);
