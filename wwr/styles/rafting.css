@@ -149,8 +149,15 @@ nav ul {
     width: 125px;
 }
 
-.history h2 {
+/* .history h2 {
     grid-column: 1 / span 3;
+    background-color: white;
+    width: 100%;
+} */
+
+.history-title {
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 
 .history {
