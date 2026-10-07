@@ -19,3 +19,8 @@ tfoot tr {
     color: #fff;
     font-weight: 700;
 }
+
+.table {
+    display: flex;
+    align-self: center;
+}
