@@ -91,6 +91,10 @@ nav ul {
     position: relative;
 }
 
+.hero p {
+    line-height: 1.6;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -105,6 +109,17 @@ nav ul {
     text-align: center;
     background-color: var(--overlay-color);
     color: var(--secondary-color);
+}
+
+.hero2 h1 {
+    /* margin-top: 20px;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color); */
+    padding-bottom: 10px;
 }
 
 .hero h2 {
@@ -142,12 +157,17 @@ nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    background-color: var(--lightblue-color);
 }
 
 .history img {
     width: 250px;
     height: auto;
     margin: 10px;
+}
+
+.history p {
+    line-height: 1.6;
 }
 
 .adventure {
@@ -196,6 +216,8 @@ footer p {
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: var(--lightblue-color);
+    padding: 10px;
 }
 
 .contact-content form {
@@ -287,7 +309,7 @@ form textarea {
 }
 
 .quote {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-style: italic;
     /* text-align: center; */
 }
@@ -315,7 +337,7 @@ form textarea {
 }
 
 .newsletter h2 {
-    padding: 10px;
+    padding: 25px;
     grid-column: 1 / span 2;
 }
 
@@ -348,11 +370,14 @@ form textarea {
 }
 
 .explore-trips {
-    grid-column: 2;
+    grid-column: 1/ span 3;
     padding-top: 30px;
+    width: 100%;
+    text-align: center;
 }
 
 .explore-trips a {
+    display: block;
     background-color: var(--primary-color);
     font-weight: 700;
     font-size: 0.85rem;
@@ -363,6 +388,84 @@ form textarea {
     padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.about-rafting h2 {
+    padding: 10px;
+}
+
+.about-rafting p {
+    line-height: 1.6;
+}
+
+.caption {
+    padding-top: 10px;
+}
+
+.trip-button a {
+    background-color: var(--primary-color);
+    font-weight: 700;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.trip-button {
+    position: absolute;
+    top: 390px;
+    right: 540px;
+}
+
+.trip-one,
+.trip-three {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    background-color: var(--lightblue-color);
+    padding-right: 10px;
+}
+
+.trip-two {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.trip-one img,
+.trip-two img,
+.trip-three img {
+    max-width: 300px;
+}
+
+.description h4,
+.description-two h4,
+.description-three h4 {
+    text-align: center;
+    margin-top: 30px;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.description span,
+.description-two span,
+.description-three span {
+    font-weight: 600;
+}
+
+.description p,
+.description-two p,
+.description-three p {
+    line-height: 1.2;
+}
+
+.trip h2 {
+    padding: 30px;
 }
 
 /* .contact-content button {
